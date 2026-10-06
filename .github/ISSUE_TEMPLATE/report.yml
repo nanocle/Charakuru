@@ -1,0 +1,62 @@
+name: "不具合・改善案 / Bug or suggestion"
+description: "制作で困ったことや改善案を報告 / Report a workflow problem or suggestion"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        PRは受け付けません。必要な範囲だけを記載してください。認証情報、個人情報、個人のパス、非公開素材、モデル原本、制作プロジェクト全体、会話全体を投稿しないでください。画像やエラーの引用にも秘密を含めないでください。
+        Pull requests are not accepted. Share only necessary details. Do not post credentials, personal information or paths, confidential assets, original models, entire projects or conversations. Remove private details from screenshots and error excerpts.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "報告の種類 / Type"
+      options:
+        - "不具合・失敗した工程 / Bug or unsuccessful workflow"
+        - "改善案 / Suggestion"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "キットの版 / Kit version"
+      description: "package.jsonまたは配布ZIPの版 / Version from package.json or the distribution ZIP"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "OS・ブラウザ / OS and browser"
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: "エージェント・モデル・工程 / Agent, model and stage"
+      description: "Skillsに関する問題なら記載 / Include for Skill problems"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "行った操作・提案 / Steps or proposal"
+      description: "再現に必要な範囲だけを記載 / Include only what is needed to explain or reproduce the issue"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "期待した結果 / Expected result"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "実際の結果 / Actual result"
+      description: "改善案なら現在の状況を記載 / For suggestions, describe the current situation"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "投稿前の確認 / Before submitting"
+      options:
+        - label: "秘密・個人情報・非公開素材・制作原本を含めていません / This report contains no secrets, personal information, confidential assets or production originals"
+          required: true

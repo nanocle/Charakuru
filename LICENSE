@@ -1,0 +1,261 @@
+Charakuru Source-Available License and Terms of Use
+Version 1.1 — 2026-10-03
+
+Copyright (c) 2026 Chara Kit contributors
+All rights reserved except as expressly granted below.
+
+This is a custom source-available license, not an OSI-approved open-source
+license and not the MIT License. The commercial-use and redistribution
+restrictions below apply to the Covered Materials, including modified versions.
+
+1. Definitions and scope
+
+"Licensor" means the copyright holder or holders of the Covered Materials.
+Permissions outside this License must be obtained from the Licensor or a
+representative authorized to grant them. The project maintainer is the initial
+contact; a sponsor is not, merely by sponsoring the project, the Licensor.
+
+"Covered Materials" means the original application code, scripts, Skills
+(including their instructions and reference text), and documentation supplied
+with this License as AI Character Modeling Kit, also previously named ELYTH
+Avatar Kit or Chara Kit. It includes copies and modifications of those materials.
+It does not include materials identified as separately licensed under Section 8.
+
+"You" means the individual using the Covered Materials for their own purposes,
+or the business or organization on whose behalf they are used. An employee or
+contractor using the Kit for an organization must assess that organization's
+eligibility, not just the employee's or contractor's personal income. A person's
+unrelated employer is not counted for genuinely independent personal use.
+
+"Business Use" means use in a business, professional practice, or an
+organization's operations, including internal model production, commissioned
+work, sales of models or content, and incorporation into a product or service.
+It includes development and testing for those activities, whether or not a
+particular project has earned revenue yet.
+
+"Revenue" means gross business revenue, before expenses, over the immediately
+preceding twelve months, across Your business as a whole, not just the Kit-based
+project. For a business operating for less than twelve months, use actual
+revenue since it began; do not annualize it. For an independent individual,
+unrelated employment salary and personal transfers are not business revenue.
+
+"Funding" means the cumulative external equity investment and business-purpose
+loan proceeds actually received since Your business began, including convertible
+financing. It is not limited to the preceding twelve months. Exclude revenue,
+an individual founder's unborrowed personal funds contributed to a business
+independently owned and controlled by that founder,
+personal borrowing unrelated to the business, and non-repayable grants or gifts.
+Do not count a refinancing of the same outstanding principal twice; count any
+additional proceeds. Repayment or spending of funds does not reduce this
+cumulative amount.
+
+For an organization under common control with other entities, assess Revenue
+and Funding across that controlled group, excluding transfers within the group
+to avoid double counting. Control means majority ownership or the power to
+direct management. Splitting a business into projects or controlled entities
+does not create separate free allowances.
+
+The financial threshold is JPY 10,000,000. Revenue and Funding are tested
+separately, not added together: reaching either threshold is sufficient.
+For amounts in other currencies, use a consistently applied, publicly available
+exchange-rate source and the rate on the date each amount was recognized or
+received. Keep sufficient records to explain Your eligibility if reasonably
+requested; this License does not authorize access to Your accounting systems.
+
+2. Free permission
+
+Subject to this License, You may download, install, run, privately copy, inspect,
+and modify the Covered Materials without a license fee if:
+
+(a) Your use is genuinely personal and outside Business Use; or
+(b) both Your Revenue and Your Funding are below the financial threshold.
+
+This permission includes eligible Business Use, internal production, use with
+AI agents and Blender, and operation of a hosted service on infrastructure
+under Your control. Making Kit code available to customers, including delivering
+the application to their browsers, is redistribution and requires Section 4
+permission even if Your business qualifies for free use.
+
+You may provide the necessary private copies to personnel and infrastructure
+or AI service providers acting solely to carry out Your permitted use, subject
+to confidentiality and no independent reuse of the Covered Materials. This is
+not permission to publish the Kit or grant customers copies or independent
+rights. You remain responsible for keeping this use within Your permission.
+
+Free use requires no registration or license payment. It remains subject to
+the redistribution restrictions. There is no limit here on the number or price
+of models You may create, but business model sales count toward Revenue.
+
+3. Business Use requiring a separate commercial agreement
+
+If Your Revenue OR Your Funding is JPY 10,000,000 or more, You must obtain a
+separate written commercial agreement from the Licensor before Business Use.
+This applies to both internal production and product or service integration,
+including Business Use by an individual. Downloading an update, sending an
+inquiry, or receiving an invoice alone does not authorize such use.
+
+If You reach a threshold while using the Kit under Section 2, obtain that
+agreement before continuing Business Use. Earlier use that complied with this
+License is not retroactively charged. No automatic grace period, commercial
+trial, or evaluation-use exception is granted; any such permission must be
+given in writing. Reading the public source, GitHub activities under Section 4,
+and retaining an inactive archival copy do not themselves require a paid
+commercial agreement.
+
+Fees, duration, authorized users, integration scope, and any redistribution
+rights are negotiated in that agreement. This License sets no fixed price,
+per-user charge, automatic renewal, or obligation to offer an agreement.
+Unless expressly agreed otherwise, a commercial arrangement covers only the
+specified usage rights and access to publicly released updates during its term.
+It includes no individual support, setup assistance, commissioned production,
+custom development, guaranteed results, or promise of future updates.
+
+On expiry of a commercial agreement, Business Use must stop unless You have
+renewed, have other written permission, or then qualify under Section 2.
+Authorized Outputs remain subject to Section 6, not a continuing Kit fee.
+
+4. GitHub forks, contributions, and redistribution
+
+You may view and fork the public repository within GitHub, retain and modify
+such forks there, and submit issues, patches, and pull requests. This permission
+applies regardless of the financial threshold. It does not permit otherwise
+restricted Business Use. Nothing here narrows rights granted by the applicable
+GitHub Terms of Service for GitHub's operation of public repositories.
+
+Retain this License and existing copyright, attribution, and third-party
+notices with the Covered Materials. Clearly identify material changes and
+identify a modified fork as unofficial. Include this License when permitted
+copies of individual Skills or other Covered Materials are supplied separately.
+
+Except for the GitHub repository activities above and private operational
+copies under Section 2, redistribution requires prior written permission from
+the Licensor. This includes free or paid copies, reposting on other sites,
+mirrors outside GitHub, re-uploaded ZIPs, package registries, installers, bundled
+applications, and independently distributed modified releases. The fork
+exception is not permission to publish separate release packages, downloads,
+or a hosted app from a fork, including through GitHub Releases or GitHub Pages.
+
+A commercial license fee does not by itself authorize redistribution. Any
+redistribution permission must identify its scope. Unless that permission
+expressly provides otherwise, every permitted redistribution of Covered
+Materials, modified or not, must include this License and remain subject to its
+conditions. Recipients need their own permission for use outside this License.
+
+5. Modifications and ownership
+
+You retain any copyright You hold in Your original modifications. Modifying,
+translating, porting, bundling, or renaming Covered Materials does not remove
+these conditions from the Covered Materials or authorize relicensing them.
+You may not grant recipients broader rights in the Licensor's material than
+You received. This License does not require publishing private modifications.
+
+This License does not claim ownership of general ideas, techniques, workflows,
+or independently written implementations that do not copy protected material.
+Contributions are not an assignment of copyright. Maintainers must obtain any
+additional contributor permission needed to offer broader commercial rights;
+submitting a pull request is not an unlimited commercial relicensing grant.
+
+6. Models and other Outputs
+
+"Outputs" means the models, textures, images, animations, videos, scene data,
+and user project data You produce through authorized use of the Kit. Merely
+using the Kit or its project format does not make an Output Covered Materials.
+
+The Licensor claims no ownership, royalty, Kit attribution requirement, or
+redistribution restriction over Your Outputs solely because You used the Kit.
+You may use, edit, sell, license, and distribute authorized Outputs, including
+on BOOTH or ELYTH, without a separate Output permission from the Licensor.
+Those rights are not lost when You stop using the Kit, cross the financial
+threshold, or end a commercial agreement. Continued use of the Kit itself must
+still comply with Sections 2 and 3.
+
+Calling something an Output does not exempt a copy of Kit code, a Skill, or
+other substantial Covered Materials embedded in it from this License. Rights
+in source artwork, third-party assets, sample characters, AI-generated content,
+and external services remain subject to their own terms. No ownership or
+commercial-use clearance for such material is guaranteed by this License.
+
+7. Updates and separate permissions
+
+This License applies to the version of the Covered Materials with which it is
+supplied. Later license changes do not retroactively replace the terms for
+copies already received under this version. Future updates may have different
+terms. A valid separate written agreement prevails only to the extent it
+expressly grants an exception for the covered parties, materials, and use.
+No change to this License revokes rights validly granted under another license.
+
+8. Third-party components, assets, and names
+
+Separately licensed third-party components are governed by their own licenses,
+not the financial or redistribution restrictions in this License. In particular:
+
+* Three.js and its bundled add-ons: public/vendor/THREE-LICENSE.txt (MIT).
+* Orbitron font: public/fonts/Orbitron-OFL.txt (SIL Open Font License 1.1).
+
+Preserve those notices. Other identified third-party licenses also prevail
+for their respective components.
+
+Project-supplied bundled assets include example characters and models,
+reference artwork, screenshots, thumbnails, GIFs, videos, promotional graphics,
+logos, and the weighted donor body. They are provided for the Kit's workflow
+and documentation only. You must not extract those assets for standalone use
+outside the Kit, take or upload them to external services for independent use,
+or redistribute them separately. This prohibition applies to commercial and
+non-commercial use; a commercial software agreement does not grant those rights.
+
+You may view the documentation and preserve it together with its embedded media
+in a GitHub fork permitted by Section 4. A weighted donor body supplied by the
+rights holder for this Kit may be loaded and modified locally only for body
+fitting and weight transfer, with local intermediate copies as needed. The
+donor, its meshes, rig, and intermediate fitted copies must not be taken out
+for independent use or distributed separately. This grants no rights in
+third-party donor material.
+
+These restrictions do not apply to Your own authorized Outputs under Section 6
+or override separately licensed third-party components. Tripo sponsor logos
+remain Tripo-owned; preserve their original colors and proportions when showing
+them for sponsor attribution. No right to reuse those logos independently is
+granted.
+
+No trademark or endorsement rights are granted. ELYTH, Tripo, OpenAI, Blender,
+and other names remain subject to their respective owners' rights. Sponsorship
+does not imply ownership, support obligations, or endorsement of modified forks.
+External services and tools require their own accounts, terms, and fees.
+
+9. Breach and termination
+
+Permission under this License ends if You materially breach its conditions.
+You must stop the activities for which You no longer have permission and remove
+unauthorized distributions under Your control. If You cure the breach within
+30 days after receiving written notice of it, permission is reinstated unless
+You previously received a notice of the same type of breach. Otherwise,
+reinstatement requires written permission. Cure does not authorize unlicensed
+use during the breach or waive claims arising from it. A separate commercial
+agreement may specify its own termination and cure rules.
+
+The provisions about retained notices, ownership, authorized Outputs,
+third-party rights, disclaimers, and liability continue as applicable after
+termination. Non-waivable rights under applicable law are unaffected.
+
+10. No warranties; limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COVERED MATERIALS ARE
+PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+NON-INFRINGEMENT, ACCURACY, COMPATIBILITY, OR UNINTERRUPTED OPERATION. SKILLS
+AND AI-ASSISTED WORKFLOWS MAY BE EXPERIMENTAL AND MAY REQUIRE MANUAL CORRECTION.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR AND CONTRIBUTORS
+ARE NOT LIABLE FOR DAMAGES ARISING FROM THE COVERED MATERIALS OR THEIR USE,
+INCLUDING LOST PROFITS, LOST DATA, BUSINESS INTERRUPTION, OR THIRD-PARTY
+SERVICE COSTS. THESE EXCLUSIONS DO NOT APPLY WHERE LIABILITY CANNOT LAWFULLY
+BE EXCLUDED, AND DO NOT OVERRIDE EXPRESS OBLIGATIONS IN A SEPARATE AGREEMENT.
+
+11. Language and inquiries
+
+This English text is authoritative. Japanese explanations are provided for
+convenience and do not add permissions or restrictions to this License.
+For commercial use or redistribution permission, email the project maintainer
+at divedesign.info@gmail.com. Report bugs and unsuccessful workflows through
+GitHub Issues in the official project repository. Do not post confidential
+financial information or restricted character assets in a public issue.
