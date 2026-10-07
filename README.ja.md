@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.0.0-22d3ee">
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.1-22d3ee">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22%2B-5fa04e">
   <img alt="output" src="https://img.shields.io/badge/output-VRM%201.0-a78bfa">
   <img alt="license" src="https://img.shields.io/badge/license-source--available-64748b">
@@ -112,7 +112,7 @@ AIエージェントへの丸投げほど非現実的でもなく、すべて人
 
 このリポジトリには配布向けの文書と画像を格納しています。動作するアプリとルートの `AGENTS.md` は専用の配布ZIPに含まれます。
 
-1. [Releases](https://github.com/nanocle/Charakuru/releases) から **`charakuru-1.0.0-….zip`** をダウンロードし、書き込みできる好きなフォルダに展開します。<br><sub>※ GitHubが自動で付ける「Source code」のZIPは説明文書と画像が入り、動作するキットは入っていません。</sub>
+1. [Releases](https://github.com/nanocle/Charakuru/releases) から **`charakuru-1.0.1-….zip`** をダウンロードし、書き込みできる好きなフォルダに展開します。<br><sub>※ GitHubが自動で付ける「Source code」のZIPは説明文書と画像が入り、動作するキットは入っていません。</sub>
 2. Codex で展開したフォルダを開き、次のように頼みます。
 
    ```text
@@ -124,6 +124,8 @@ AIエージェントへの丸投げほど非現実的でもなく、すべて人
 自分で起動する場合は、展開したフォルダで `npm start` を実行します。アプリは最初は英語で表示されます。左下の **Settings** を開き、**Language** の「日本語」ボタンで切り替えられます。
 
 続きは **[チュートリアル](docs/tutorial.ja.md)** で、1体目を作り終えるまでの手順を画面つきで説明しています。
+
+新しい依頼文は、Windows の Codex が旧形式の `start` とURLをURL起動命令と誤判定しないよう、開始命令に `begin` を使います。古い依頼文が `blocked by policy` と拒否された場合は、[復旧手順](docs/tutorial.ja.md#windows-の-codex-で開始コマンドが拒否される)を確認し、更新済みキットのアプリから依頼文をコピーし直してください。
 
 ## キットの中身
 
@@ -171,7 +173,9 @@ AIエージェントへの丸投げほど非現実的でもなく、すべて人
 
 法律で認められる範囲で、このキットの利用によって発生した損害の責任を負いません。
 
-事業全体の直近12か月の売上、または累計調達資金が1,000万円以上の場合は、商用・業務利用の前にNanoまでご相談ください。
+事業全体の年商と累計調達資金が**どちらも1億円未満**であれば、通常のライセンスの条件内で、別途契約や登録なしに利用できます。**どちらかが1億円以上**の場合は、商用・業務利用を開始・継続する前に、Nanoを窓口として権利者等との別途の書面によるライセンス契約を締結してください。売上と調達資金は合算しません。
+
+年商は**直近の終了した会計年度**で判定します。会計年度がない場合は直近12か月、まだ会計年度が終了していない場合は開業後の実売上（最大直近12か月）を使い、開業後12か月未満の場合や短い初年度は年換算しません。累計調達資金は年度に関係なく受領時に再確認します。詳しい計算方法と契約のタイミングは[利用規約の解説](docs/license.ja.md)をご覧ください。
 
 正式なライセンスは[こちら](LICENSE)をご覧ください。
 

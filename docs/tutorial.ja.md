@@ -49,7 +49,7 @@
 
 **👤 あなたの操作**
 
-1. [Releases](https://github.com/nanocle/Charakuru/releases) から `charakuru-1.0.0-….zip` をダウンロードし、書き込みできるフォルダに展開します。「Source code」のZIPではありません。
+1. [Releases](https://github.com/nanocle/Charakuru/releases) から `charakuru-1.0.1-….zip` をダウンロードし、書き込みできるフォルダに展開します。「Source code」のZIPではありません。
 2. Codex で展開したフォルダを開き、次のように頼みます。
    ```text
    ルートAGENTS.mdを読んで、このキットでキャラクター制作を始めたい
@@ -253,6 +253,18 @@ Tripo をブラウザーで操作し、4方向の画像から **頭と体の3D�
 <p align="center"><img src="images/ja/20-settings.jpg" alt="設定画面" width="720"></p>
 
 ## 困ったとき
+
+### Windows の Codex で開始コマンドが拒否される
+
+Windows の Codex では、旧形式の `agent-session.mjs start URL REQUEST_ID` にある `start` とURLが、PowerShellのURL起動命令と誤判定されることを確認しました。このキットでは開始命令を `begin` に変更し、新しい依頼文でその誤判定を避けています。この問題のためにCodexの権限設定を変更する必要はありません。保存・入力照合・制作開始の条件は従来と同じです。
+
+1. 古い `start` の依頼文で拒否された場合は、更新済みキットでアプリを開き、使う元絵やプロジェクトを確認してください。
+2. アプリから依頼文をコピーし直し、チャットへ送ります。新しい依頼文の開始コマンドは `agent-session.mjs begin` です。アプリは開いたままにしてください。
+3. エージェントが開始コマンドの成功と `saved: true` を確認すると、アプリの最新状態が保存され、制作へ進みます。アプリの再起動や元絵の変更で依頼が失効した場合は、画面の内容を確認して依頼文をコピーし直します。手動保存や別名のキット作成は不要です。
+
+この対応は [Issue #2](https://github.com/nanocle/Charakuru/issues/2)・[Issue #3](https://github.com/nanocle/Charakuru/issues/3)と同じ拒否の再現調査に基づきます。Codexの[Windows向け判定コード](https://github.com/openai/codex/blob/rust-v0.162.0-alpha.2/codex-rs/shell-command/src/command_safety/windows_dangerous_commands.rs)でも、命令と引数を区別せず `start` とURLの組み合わせを検出する処理を確認しています。旧形式の `start` は互換用に残していますが、新しい依頼では `begin` を使います。`begin` でも起動前に拒否される場合は開始処理が未実行です。再試行を繰り返さず、キットの版、Windows・Codexの版、選んだ権限設定、個人パスなどを省いたエラーの要点を添えて報告してください。
+
+### その他
 
 - **依頼文を送ったのに何も起きない**：依頼文はチャットに貼って送る必要があります。アプリが開いたままか確認してください。
 - **途中で止まった・失敗した**：画面に理由が表示されます。**現在の状態を読み直す** で保存された状態を開き直せます。

@@ -49,7 +49,7 @@ Two more things make the process smoother:
 
 **👤 What you do**
 
-1. Download `charakuru-1.0.0-….zip` from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to a folder you can write to. Not the "Source code" ZIP.
+1. Download `charakuru-1.0.1-….zip` from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to a folder you can write to. Not the "Source code" ZIP.
 2. Open the extracted folder in Codex and ask:
    ```text
    Read the root AGENTS.md and help me start creating a character with this kit.
@@ -255,6 +255,18 @@ That's your first avatar done.
 <p align="center"><img src="images/en/20-settings.jpg" alt="Settings" width="720"></p>
 
 ## Troubleshooting
+
+### A start command is blocked by policy in Codex on Windows
+
+We reproduced Codex on Windows mistaking the `start` argument and URL in the old `agent-session.mjs start URL REQUEST_ID` command for a PowerShell URL launch. This kit uses `begin` in new requests to avoid that false positive. You do not need to change Codex permissions for this issue. Saving, input validation and the conditions for starting work are unchanged.
+
+1. If an old request using `start` was rejected, open the app from the updated kit and check the source image or project you want to use.
+2. Copy a new request from the app and send it in chat. Its start command is `agent-session.mjs begin`. Keep the app open.
+3. Once the agent confirms success and `saved: true`, the app saves its latest state and work can begin. If restarting the app or changing the source image invalidated the request, review the app and copy a new request. You do not need to save manually or create another kit file.
+
+This change follows a reproduction of the same rejection reported in [Issue #2](https://github.com/nanocle/Charakuru/issues/2) and [Issue #3](https://github.com/nanocle/Charakuru/issues/3). Codex's [Windows classifier](https://github.com/openai/codex/blob/rust-v0.162.0-alpha.2/codex-rs/shell-command/src/command_safety/windows_dangerous_commands.rs) also checks for `start` and a URL without distinguishing command names from arguments. The old `start` command remains a compatibility alias, but new requests use `begin`. If `begin` is also rejected before launch, the kit's start operation has not run. Stop retrying and report the kit version, Windows and Codex versions, selected permissions setting, and the error summary with personal paths removed.
+
+### Other issues
 
 - **Nothing happens after sending a request**: the request has to be pasted into the chat and sent. Make sure the app is still open.
 - **The work stopped or failed**: the reason is shown on screen. **Reload saved project** reopens the saved state.

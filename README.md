@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.0.0-22d3ee">
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.1-22d3ee">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22%2B-5fa04e">
   <img alt="output" src="https://img.shields.io/badge/output-VRM%201.0-a78bfa">
   <img alt="license" src="https://img.shields.io/badge/license-source--available-64748b">
@@ -112,7 +112,7 @@ Accounts, terms and fees for external services are your own. The agent checks wh
 
 This repository contains distribution documentation and images. The runnable app and root `AGENTS.md` are included in the dedicated distribution ZIP.
 
-1. Download **`charakuru-1.0.0-….zip`** from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to any folder you can write to.<br><sub>GitHub's automatic "Source code" archive contains these documents and images, not the runnable kit.</sub>
+1. Download **`charakuru-1.0.1-….zip`** from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to any folder you can write to.<br><sub>GitHub's automatic "Source code" archive contains these documents and images, not the runnable kit.</sub>
 2. Open the extracted folder in Codex and ask:
 
    ```text
@@ -124,6 +124,8 @@ This repository contains distribution documentation and images. The runnable app
 To start it yourself, run `npm start` in the extracted folder.
 
 Then follow the **[tutorial](docs/tutorial.md)**, which walks through your first avatar screen by screen.
+
+New agent requests use the `begin` command to avoid Codex on Windows mistaking the old `start` argument and a URL for a URL launch. If an old request is rejected with `blocked by policy`, see the [recovery steps](docs/tutorial.md#a-start-command-is-blocked-by-policy-in-codex-on-windows) and copy a new request from the updated kit.
 
 ## What's in the kit
 
@@ -172,7 +174,9 @@ You must not extract bundled assets alone to take them outside the kit or redist
 
 To the extent permitted by law, we accept no liability for damage arising from use of this kit.
 
-If your business's revenue over the preceding 12 months or cumulative funding is ¥10 million or more, contact Nano before commercial or business use.
+If your entire business's annual revenue and cumulative funding are **both below ¥100 million**, you may use the Kit within the standard License conditions without a separate agreement or registration. If **either is ¥100 million or more**, contact Nano and obtain a separate written license agreement with the Licensor or an authorized representative before starting or continuing commercial or business use. Revenue and funding are not added together.
+
+Assess annual revenue using the **most recently completed fiscal year**. If there is no defined fiscal year, use the preceding twelve months; if no fiscal year has yet ended, use actual revenue since the business began, limited to the preceding twelve months. Do not annualize revenue for a business operating for less than twelve months or for a short initial fiscal year. Reassess cumulative funding when funds are received, regardless of the fiscal year. See [Terms of Use explained](docs/license.md) for calculation details and agreement timing.
 
 Read the formal license [here](LICENSE).
 
