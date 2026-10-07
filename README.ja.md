@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.0.1-22d3ee">
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.2-22d3ee">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22%2B-5fa04e">
   <img alt="output" src="https://img.shields.io/badge/output-VRM%201.0-a78bfa">
   <img alt="license" src="https://img.shields.io/badge/license-source--available-64748b">
@@ -112,7 +112,7 @@ AIエージェントへの丸投げほど非現実的でもなく、すべて人
 
 このリポジトリには配布向けの文書と画像を格納しています。動作するアプリとルートの `AGENTS.md` は専用の配布ZIPに含まれます。
 
-1. [Releases](https://github.com/nanocle/Charakuru/releases) から **`charakuru-1.0.1-….zip`** をダウンロードし、書き込みできる好きなフォルダに展開します。<br><sub>※ GitHubが自動で付ける「Source code」のZIPは説明文書と画像が入り、動作するキットは入っていません。</sub>
+1. [Releases](https://github.com/nanocle/Charakuru/releases) から **`charakuru-1.0.2-….zip`** をダウンロードし、書き込みできる好きなフォルダに展開します。<br><sub>※ GitHubが自動で付ける「Source code」のZIPは説明文書と画像が入り、動作するキットは入っていません。</sub>
 2. Codex で展開したフォルダを開き、次のように頼みます。
 
    ```text

@@ -49,7 +49,7 @@ Two more things make the process smoother:
 
 **👤 What you do**
 
-1. Download `charakuru-1.0.1-….zip` from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to a folder you can write to. Not the "Source code" ZIP.
+1. Download `charakuru-1.0.2-….zip` from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to a folder you can write to. Not the "Source code" ZIP.
 2. Open the extracted folder in Codex and ask:
    ```text
    Read the root AGENTS.md and help me start creating a character with this kit.
@@ -58,7 +58,7 @@ Two more things make the process smoother:
 
 **🤖 What the agent does**
 
-It reads `AGENTS.md` and checks whether Node.js, image generation, browser control, Blender and the rest are available. If something is missing, it tells you. Then it starts the app.
+It reads `AGENTS.md` and checks whether Node.js, image generation, browser control, Blender and the rest are available. If something is missing, it tells you. Then it starts the app. When opening the app or Tripo, it uses your existing browser and tabs. If the page is not open, it adds a tab in the same browser; it starts a new browser only when none is open. If browser control needs a connection, it asks you to connect that browser.
 
 <p align="center"><img src="images/en/01-start.jpg" alt="The Image library screen right after starting" width="860"></p>
 

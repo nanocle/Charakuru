@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.0.1-22d3ee">
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.2-22d3ee">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22%2B-5fa04e">
   <img alt="output" src="https://img.shields.io/badge/output-VRM%201.0-a78bfa">
   <img alt="license" src="https://img.shields.io/badge/license-source--available-64748b">
@@ -112,7 +112,7 @@ Accounts, terms and fees for external services are your own. The agent checks wh
 
 This repository contains distribution documentation and images. The runnable app and root `AGENTS.md` are included in the dedicated distribution ZIP.
 
-1. Download **`charakuru-1.0.1-….zip`** from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to any folder you can write to.<br><sub>GitHub's automatic "Source code" archive contains these documents and images, not the runnable kit.</sub>
+1. Download **`charakuru-1.0.2-….zip`** from [Releases](https://github.com/nanocle/Charakuru/releases) and extract it to any folder you can write to.<br><sub>GitHub's automatic "Source code" archive contains these documents and images, not the runnable kit.</sub>
 2. Open the extracted folder in Codex and ask:
 
    ```text

@@ -49,7 +49,7 @@
 
 **👤 あなたの操作**
 
-1. [Releases](https://github.com/nanocle/Charakuru/releases) から `charakuru-1.0.1-….zip` をダウンロードし、書き込みできるフォルダに展開します。「Source code」のZIPではありません。
+1. [Releases](https://github.com/nanocle/Charakuru/releases) から `charakuru-1.0.2-….zip` をダウンロードし、書き込みできるフォルダに展開します。「Source code」のZIPではありません。
 2. Codex で展開したフォルダを開き、次のように頼みます。
    ```text
    ルートAGENTS.mdを読んで、このキットでキャラクター制作を始めたい
@@ -59,7 +59,7 @@
 
 **🤖 エージェントの作業**
 
-`AGENTS.md` を読み、Node.js、画像生成、ブラウザー操作、Blender などが使えるかを確認します。足りないものがあれば教えてくれます。そのあとアプリを起動します。
+`AGENTS.md` を読み、Node.js、画像生成、ブラウザー操作、Blender などが使えるかを確認します。足りないものがあれば教えてくれます。そのあとアプリを起動します。アプリやTripoを開くときは、使用中のブラウザーと既存のタブを優先します。対象タブがなければ同じブラウザーに追加し、ブラウザーが開いていない場合だけ新しく起動します。操作の接続が必要な場合は、その接続を案内します。
 
 <p align="center"><img src="images/ja/01-start.jpg" alt="起動直後の画像素材の画面" width="860"></p>
 
