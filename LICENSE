@@ -1,5 +1,5 @@
 Charakuru Source-Available License and Terms of Use
-Version 1.1 — 2026-10-03
+Version 1.2 — 2026-10-07
 
 Copyright (c) 2026 Chara Kit contributors
 All rights reserved except as expressly granted below.
@@ -33,11 +33,18 @@ work, sales of models or content, and incorporation into a product or service.
 It includes development and testing for those activities, whether or not a
 particular project has earned revenue yet.
 
-"Revenue" means gross business revenue, before expenses, over the immediately
-preceding twelve months, across Your business as a whole, not just the Kit-based
-project. For a business operating for less than twelve months, use actual
-revenue since it began; do not annualize it. For an independent individual,
-unrelated employment salary and personal transfers are not business revenue.
+"Revenue" means gross business revenue, before expenses and excluding consumption
+or sales taxes collected on behalf of tax authorities, across Your business as
+a whole, not just the Kit-based project. Use Your most recently completed fiscal
+year: the regular annual accounting period used for Your business, not a period
+chosen solely for this License. For an independent individual, use the most
+recently completed calendar year unless the business uses another regular
+fiscal year. For a business without a defined fiscal year, use the immediately
+preceding twelve months. If no fiscal year has yet ended, use actual revenue
+since the business began, limited to the immediately preceding twelve months.
+Do not annualize revenue for a business operating for less than twelve months
+or for a short initial fiscal year. An independent individual's unrelated
+employment salary and personal transfers are not business revenue.
 
 "Funding" means the cumulative external equity investment and business-purpose
 loan proceeds actually received since Your business began, including convertible
@@ -55,7 +62,12 @@ to avoid double counting. Control means majority ownership or the power to
 direct management. Splitting a business into projects or controlled entities
 does not create separate free allowances.
 
-The financial threshold is JPY 10,000,000. Revenue and Funding are tested
+If entities in a controlled group have different fiscal year-end dates, use
+each entity's most recently completed fiscal year and reassess group Revenue
+whenever any such fiscal year ends. Apply the rules above to any group entity
+without a defined or completed fiscal year.
+
+The financial threshold is JPY 100,000,000. Revenue and Funding are tested
 separately, not added together: reaching either threshold is sufficient.
 For amounts in other currencies, use a consistently applied, publicly available
 exchange-rate source and the rate on the date each amount was recognized or
@@ -88,11 +100,25 @@ of models You may create, but business model sales count toward Revenue.
 
 3. Business Use requiring a separate commercial agreement
 
-If Your Revenue OR Your Funding is JPY 10,000,000 or more, You must obtain a
+If Your Revenue OR Your Funding is JPY 100,000,000 or more, You must obtain a
 separate written commercial agreement from the Licensor before Business Use.
 This applies to both internal production and product or service integration,
 including Business Use by an individual. Downloading an update, sending an
 inquiry, or receiving an invoice alone does not authorize such use.
+
+Assess Your eligibility before starting Business Use. Reassess Revenue at the
+end of each fiscal year; the new assessment applies from the start of the next
+fiscal year, without waiting for tax filing or formal approval of accounts.
+Until then, use the same most recently completed fiscal year: revenue earned
+during the current fiscal year alone does not change that assessment. If You
+have no defined fiscal year or no completed fiscal year, monitor actual Revenue
+using the periods defined in Section 1; reaching the threshold in that period
+requires an agreement before further Business Use.
+
+Funding is cumulative and does not use a fiscal-year or twelve-month period.
+Reassess Funding when additional qualifying funds are received; reaching its
+threshold requires an agreement before further Business Use, even during a
+fiscal year in which Your Revenue remains below the threshold.
 
 If You reach a threshold while using the Kit under Section 2, obtain that
 agreement before continuing Business Use. Earlier use that complied with this
